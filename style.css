@@ -131,6 +131,7 @@ nav .nav-left ul{
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	padding:30 0px;
 }
 
 .section-one-container h1{
@@ -377,41 +378,38 @@ p{
 
 /* Footer */
 
+.footer__line{
+	width:90%;
+	height: 1px;
+	margin-left: 20px;
+	background-color: #ccc;
+}
 .footer{
+	overflow: hidden;
 	margin-top: 200px;
-	display: flex;
-	padding-left: 20px;
 	width: 100%;
-	border-top:;
-	border-width: 90%;
-	border: 1px solid #f9f9f9
+
+}
+
+.footer p{
+	font-size: 18px !important;
 }
 
 .social-icon{
-	width:60px;
-	height: 60px;
-	padding-right: 25px;
+	width:50px;
+	height: 50px;
+	padding-left: 20px;
 }
 
 .footer__footer-link{
+	marginx-top: 50px;
 	text-decoration: none;
 	cursor: pointer;
 }
 
-/*.text-sm .para{
-	margin-top: -100px;
-}
-*//*div .footer__line{
-	padding: 0 50px;
-}
-*/
+
 
 @media  (max-width: 760px){
-/*		h1{
-			width: 100%;
-			font-size: 30px;
-			letter-spacing: 2px;
-	}*/
 	.box-main{
 		flex-direction: column;
 	}
@@ -438,8 +436,7 @@ p{
 	}
 
 	.footer{
-		margin: 50px;
-
+		margin-top: 50px;
 	}
 
 }
